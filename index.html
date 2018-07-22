@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projeto MasterTech</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script>
+            $(function() {
+            $('a').bind('click',function(event){
+                var $anchor = $(this);
+                $('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top}, 100,'swing');
+            });
+            });
+    </script>
+    <header>
+        <center><img src="imagens/logo.png" alt="Logo" width="10%" height="10%"></center>
+    </header>
+
+    <section class="tudoCentro" id="info"><br>
+        <h1 style="color: white;">Monitore</h1><br>
+
+       <section id="caixasInformacoes"><br>
+            <span class="titulo">Ranking</span><br><br>
+            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, error at rem rerum alias fugit veritatis illum tenetur assumenda, voluptate nemo maxime reiciendis autem quod dolor aliquam harum enim eos?</p><br><br>
+            <img src="imagens/podium.png" alt="Teste" class="foto" width="100%" height="100%"><br><br><br><br>
+            <a href="#rankingI"><div class="botao">Ver</div></a>
+        </section>
+
+        <section id="caixasInformacoes"><br>
+            <span class="titulo">Monitore</span><br><br>
+            <img src="imagens/teste.png" alt="Teste" class="foto" width="100%" height="100%"><br><br>
+            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, error at rem rerum alias fugit veritatis illum tenetur assumenda, voluptate nemo maxime reiciendis autem quod dolor aliquam harum enim eos?</p><br><br>
+            <a href="#monitoreI"><div class="botao">Ver</div></a>
+        </section>
+
+
+        <section id="caixasInformacoes"><br>
+            <span class="titulo">Vote</span><br><br>
+            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, error at rem rerum alias fugit veritatis illum tenetur assumenda, voluptate nemo maxime reiciendis autem quod dolor aliquam harum enim eos?</p><br><br>
+            <img src="imagens/vote.png" alt="Teste" class="foto" width="100%" height="100%"><br><br><br><br>
+            <a href="#voteI"><div class="botao">Ver</div></a>
+        </section>
+
+        <section id="caixasInformacoes"><br>
+            <span class="titulo">Empresa</span><br><br>
+            <img src="imagens/empresa.png" alt="Teste" class="foto" width="100%" height="100%"><br><br>
+            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, error at rem rerum alias fugit veritatis illum tenetur assumenda, voluptate nemo maxime reiciendis autem quod dolor aliquam harum enim eos?</p><br><br>
+            <a href="#empresaI"><div class="botao">Ver</div></a>
+        </section>
+
+    </section>
+
+    <section class="tudoCentro" id="info2"><br>
+        <h1 style="color: white;" id="rankingI">Ranking</h1><br>
+
+        <section id="ranking">
+            <section class="caixinhaRank"><br>
+                    <span class="nomePolitico">1° - Lula</span><br>
+                    <span class="positivo">5</span>
+                    <img src="imagens/teste.png" alt="Teste" class="fotoPolitico" width="100%" height="100%">
+                    <span class="negativo">5</span>
+            </section>
+            <section class="caixinhaRank" style="left: 20%;"><br>
+                    <span class="nomePolitico">1° - Lula</span><br>
+                    <span class="positivo">5</span>
+                    <img src="imagens/teste.png" alt="Teste" class="fotoPolitico" width="100%" height="100%">
+                    <span class="negativo">5</span>
+            </section>
+            <section class="caixinhaRank" style="left: 40%;"><br>
+                    <span class="nomePolitico">1° - Lula</span><br>
+                    <span class="positivo">5</span>
+                    <img src="imagens/teste.png" alt="Teste" class="fotoPolitico" width="100%" height="100%">
+                    <span class="negativo">5</span>
+            </section>
+            <section class="caixinhaRank" style="left: 60%;"><br>
+                    <span class="nomePolitico">1° - Lula</span><br>
+                    <span class="positivo">5</span>
+                    <img src="imagens/teste.png" alt="Teste" class="fotoPolitico" width="100%" height="100%">
+                    <span class="negativo">5</span>
+            </section>
+            <section class="caixinhaRank" style="left: 80%;"><br>
+                    <span class="nomePolitico">1° - Lula</span><br>
+                    <span class="positivo">5</span>
+                    <img src="imagens/teste.png" alt="Teste" class="fotoPolitico" width="100%" height="100%">
+                    <span class="negativo">5</span>
+            </section>
+        </section>
+
+    </section>
+
+    <section class="tudoCentro" id="info2" style="background-color: dodgerblue;"><br>
+        <h1 style="color: white;" id="monitoreI">Monitore</h1><br>
+
+       <section id="caixasInformacoes2_1">
+            <img src="imagens/teste.png" alt="Teste" class="fotoPoliticoPequeno" width="100%" height="100%">
+            <span class="tituloNomePolitico">Senival</span>
+            <span class="descricaoProblemaPolitico">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore alias ratione veniam delectus magni accusantium adipisci esse neque error! Delectus exercitationem consequuntur maiores asperiores quas explicabo, quidem corrupti provident eum?</span>
+            <img src="imagens/teste.png" alt="Teste" class="fotoProblema" width="100%" height="100%">
+        </section>  
+
+        <section id="caixasInformacoes2_2" style="position: relative; top: 30%;">
+                <img src="imagens/teste.png" style="float:right; margin-right: 10px;" alt="Teste" class="fotoPoliticoPequeno" width="100%" height="100%">
+                <span class="tituloNomePolitico" style="float:right;">Senival</span>
+                <span class="descricaoProblemaPolitico" style="float:right;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore alias ratione veniam delectus magni accusantium adipisci esse neque error! Delectus exercitationem consequuntur maiores asperiores quas explicabo, quidem corrupti provident eum?</span>  
+                <img src="imagens/teste.png" alt="Teste" class="fotoProblema" style="float: left;" width="100%" height="100%">
+        </section>  
+
+        <section id="caixasInformacoes2_1" style="position: relative; top: 30%;" >
+                <img src="imagens/teste.png" alt="Teste" class="fotoPoliticoPequeno" width="100%" height="100%">
+                <span class="tituloNomePolitico">Senival</span>
+                <span class="descricaoProblemaPolitico">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore alias ratione veniam delectus magni accusantium adipisci esse neque error! Delectus exercitationem consequuntur maiores asperiores quas explicabo, quidem corrupti provident eum?</span>    
+                <img src="imagens/teste.png" alt="Teste" class="fotoProblema" width="100%" height="100%">
+         </section>
+        
+
+    </section>
+
+    <section class="tudoCentro" id="info2" style="background-color: salmon;"><br>
+        <center><h1 style="color: white;" id="voteI">Vote</h1></center><br>
+
+        <section id="caixasInformacoes3" style="margin-left: 25%;"><br>
+            <img src="imagens/teste.png" alt="Teste" class="fotoPolitico2" width="100%" height="100%"><br>
+            <span class="descricaoFormato"><span class="roxo">Nome:</span> Lulinha da silsa santos</span>
+            <span class="descricaoFormato"><span class="roxo">Dado:</span> Lulinha da silsa santos</span>
+            <span class="descricaoFormato"><span class="roxo">Dado:</span> Lulinha da silsa santos</span>
+            <span class="descricaoFormato"><span class="roxo">Dado:</span> Lulinha da silsa santos</span>
+            <span class="descricaoFormato"><span class="roxo">Dado:</span> Lulinha da silsa santos</span>
+            <span class="descricaoFormato"><span class="roxo">Dado:</span> Lulinha da silsa santos</span>
+            <span class="descricaoFormato"><span class="roxo">Dado:</span> Lulinha da silsa santos</span>
+            <span class="descricaoFormato"><span class="roxo">Dado:</span> Lulinha da silsa santos</span>
+            <br><br><br><br><br>
+            <a href="#"><div class="botao" style="float: left; position: relative; right: -90px; top: 50px;">Votar</div></a>
+        </section>
+        
+
+        <section id="caixasInformacoes3"><br>
+            <img src="imagens/teste.png" alt="Teste" class="fotoPolitico2" width="100%" height="100%"><br>
+            <span class="descricaoFormato"><span class="roxo">Nome:</span> Lulinha da silsa santos</span>
+            <span class="descricaoFormato"><span class="roxo">Dado:</span> Lulinha da silsa santos</span>
+            <span class="descricaoFormato"><span class="roxo">Dado:</span> Lulinha da silsa santos</span>
+            <span class="descricaoFormato"><span class="roxo">Dado:</span> Lulinha da silsa santos</span>
+            <span class="descricaoFormato"><span class="roxo">Dado:</span> Lulinha da silsa santos</span>
+            <span class="descricaoFormato"><span class="roxo">Dado:</span> Lulinha da silsa santos</span>
+            <span class="descricaoFormato"><span class="roxo">Dado:</span> Lulinha da silsa santos</span>
+            <span class="descricaoFormato"><span class="roxo">Dado:</span> Lulinha da silsa santos</span>
+            <br><br><br><br><br>
+            <a href="#"><div class="botao" style="float: left; position: relative; right: -90px; top: 50px;">Votar</div></a>
+        </section>
+        <a href="#"><div class="botao" style="float: left; position: relative; right: -550px; top: 50px; width: 30%;">Veja mais</div></a>
+        
+    </section>
+
+
+    <section class="tudoCentro" id="info2" style="background-color:black;"><br><br><br><br><br>
+        <center><h1 style="color: white; font-size: 60px;" id="empresaI">NOS SOMOS A</h1></center><br><br>
+        <center><img src="imagens/logoBranca.png" alt="Logo" width="20%" height="20%"></center><br><br>
+        <center><h1 style="color: white; font-size: 40px;">NOME EMPRESA</h1></center><br>
+    </section>
+</body>
+</html>
